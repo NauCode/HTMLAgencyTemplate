@@ -56,7 +56,7 @@ body {
             display: inline-block;
             position: relative;
             background-size: cover;
-            background: url("/assets/header_background_overlay.png"), url("/assets/header_background.png");
+            background: url("../assets/header_background_overlay.png"), url("../assets/header_background.png");
             background-position: center;
             background-repeat: no-repeat;
 
@@ -211,7 +211,7 @@ body {
                 display: inline-block;
                 position: relative;
                 background-size: cover;
-                background: url("/assets/about_video_background_overlay.png"), url("/assets/about_video_background.png");
+                background: url("../assets/about_video_background_overlay.png"), url("../assets/about_video_background.png");
                 background-position: center;
                 background-repeat: no-repeat;
 
@@ -330,7 +330,7 @@ body {
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            background: url("/assets/team_background_overlay.png"), url("/assets/team_background.png") no-repeat center center;
+            background: url("../assets/team_background_overlay.png"), url("../assets/team_background.png") no-repeat center center;
 
             div.team-main {
                 position: absolute;
@@ -549,7 +549,7 @@ body {
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            background: url("/assets/testimonials_background_overlay.png"), url("/assets/testimonials_background.png") no-repeat center center;
+            background: url("../assets/testimonials_background_overlay.png"), url("../assets/testimonials_background.png") no-repeat center center;
             background-position: top;
             background-color: #110D37;
 
@@ -740,7 +740,7 @@ body {
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            background: url("/assets/footer_background_overlay.png"), url("/assets/footer_background.png") no-repeat center center;
+            background: url("../assets/footer_background_overlay.png"), url("../assets/footer_background.png") no-repeat center center;
             background-position: top;
             background-color: #cdbeff;
 

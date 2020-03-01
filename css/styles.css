@@ -39,7 +39,7 @@ body header div.background-wrapper {
   display: inline-block;
   position: relative;
   background-size: cover;
-  background: url("/assets/header_background_overlay.png"), url("/assets/header_background.png");
+  background: url("../assets/header_background_overlay.png"), url("../assets/header_background.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -181,7 +181,7 @@ body main section#about div.container-fluid.background-wrapper {
   display: inline-block;
   position: relative;
   background-size: cover;
-  background: url("/assets/about_video_background_overlay.png"), url("/assets/about_video_background.png");
+  background: url("../assets/about_video_background_overlay.png"), url("../assets/about_video_background.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -288,7 +288,7 @@ body main section#team {
   display: inline-block;
   position: relative;
   background-size: cover;
-  background: url("/assets/team_background_overlay.png"), url("/assets/team_background.png") no-repeat center center;
+  background: url("../assets/team_background_overlay.png"), url("../assets/team_background.png") no-repeat center center;
 }
 
 body main section#team div.team-main {
@@ -488,7 +488,7 @@ body main section#testimonials {
   display: inline-block;
   position: relative;
   background-size: cover;
-  background: url("/assets/testimonials_background_overlay.png"), url("/assets/testimonials_background.png") no-repeat center center;
+  background: url("../assets/testimonials_background_overlay.png"), url("../assets/testimonials_background.png") no-repeat center center;
   background-position: top;
   background-color: #110D37;
 }
@@ -669,7 +669,7 @@ body footer div.background-wrapper {
   display: inline-block;
   position: relative;
   background-size: cover;
-  background: url("/assets/footer_background_overlay.png"), url("/assets/footer_background.png") no-repeat center center;
+  background: url("../assets/footer_background_overlay.png"), url("../assets/footer_background.png") no-repeat center center;
   background-position: top;
   background-color: #cdbeff;
 }
