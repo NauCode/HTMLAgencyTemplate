@@ -1,0 +1,1073 @@
+/* Breakpoints */
+/* These are the same breakpoints than Google Dev Tools use */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #3A2E5E;
+}
+
+body header nav {
+  background-color: transparent;
+  z-index: 999;
+}
+
+body header nav div.navbar-collapse ul.navbar-nav li.nav-item a {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #ffffff;
+}
+
+body header nav div.navbar-collapse ul.navbar-nav li.nav-item.active a {
+  color: #00e0d0;
+}
+
+body header div.background-wrapper {
+  margin-top: -76px;
+  height: 670px;
+  max-height: 670px;
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+  background: url("/assets/header_background_overlay.png"), url("/assets/header_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body header div.background-wrapper div.header-main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: black;
+  text-align: center;
+  margin-top: 5%;
+}
+
+body header div.background-wrapper div.header-main div h2 {
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+body header div.background-wrapper div.header-main div div.separator {
+  width: 50px;
+  height: 1px;
+  background-color: #00e0d0;
+  margin: 21px auto;
+}
+
+body header div.background-wrapper div.header-main div p {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 0 13%;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body header div.background-wrapper div.header-main div button {
+  border-color: #00e0d0;
+  margin-top: 33px;
+  padding: 6px 17px;
+  cursor: pointer;
+}
+
+body header div.background-wrapper div.header-main div button a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Hammersmith One', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #00e0d0;
+  text-decoration: none;
+}
+
+body header div.background-wrapper div.header-main div button:hover, body header div.background-wrapper div.header-main div button:focus, body header div.background-wrapper div.header-main div button:active {
+  background-color: #00e0d0 !important;
+}
+
+body header div.background-wrapper div.header-main div button:hover a, body header div.background-wrapper div.header-main div button:focus a, body header div.background-wrapper div.header-main div button:active a {
+  color: white;
+}
+
+body header div.background-wrapper div.header-main div button:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+}
+
+body main section {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+body main section#about div.container div.row div.col-md-5 {
+  padding: 70px 100px;
+}
+
+body main section#about div.container div.row div.col-md-7 {
+  padding: 70px 0;
+}
+
+body main section#about div.container div.row div.col-md-7 h2 {
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #413d4b;
+}
+
+body main section#about div.container div.row div.col-md-7 p {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #413d4b;
+  text-align: left;
+  padding-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+body main section#about div.container div.row div.col-md-7 div {
+  float: left;
+}
+
+body main section#about div.container div.row div.col-md-7 div button {
+  border-color: #00e0d0;
+  padding: 6px 17px;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+body main section#about div.container div.row div.col-md-7 div button a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Hammersmith One', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #00e0d0;
+  text-decoration: none;
+  text-align: center;
+}
+
+body main section#about div.container div.row div.col-md-7 div button:hover, body main section#about div.container div.row div.col-md-7 div button:focus, body main section#about div.container div.row div.col-md-7 div button:active {
+  background-color: #00e0d0 !important;
+}
+
+body main section#about div.container div.row div.col-md-7 div button:hover a, body main section#about div.container div.row div.col-md-7 div button:focus a, body main section#about div.container div.row div.col-md-7 div button:active a {
+  color: white;
+}
+
+body main section#about div.container div.row div.col-md-7 div button:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+}
+
+body main section#about div.container-fluid.background-wrapper {
+  height: 550px;
+  max-height: 550px;
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+  background: url("/assets/about_video_background_overlay.png"), url("/assets/about_video_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body main section#about div.container-fluid.background-wrapper div.video-main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: black;
+  text-align: center;
+}
+
+body main section#about div.container-fluid.background-wrapper div.video-main div.container img {
+  cursor: pointer;
+}
+
+body main section#about div.container-fluid.background-wrapper div.video-main div.container h3 {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 34px;
+}
+
+body main section#expertise {
+  padding: 70px 70px !important;
+}
+
+body main section#expertise div.title h2 {
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+body main section#expertise div.title p {
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+}
+
+body main section#expertise div.title div.separator {
+  background-color: #c6c4c9;
+  width: 50px;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+body main section#expertise div.fields {
+  margin-top: 48px;
+}
+
+body main section#expertise div.fields div.row div.col-12 {
+  padding: 10px 31px 10px 31px;
+}
+
+body main section#expertise div.fields div.row div.col-12 img {
+  margin-top: 41px;
+}
+
+body main section#expertise div.fields div.row div.col-12 h3 {
+  margin-top: 34px;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: #413d4b;
+  text-transform: uppercase;
+}
+
+body main section#expertise div.fields div.row div.col-12 p {
+  margin-top: 15px;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}
+
+body main section#expertise div.fields div.row div.col-12:nth-child(2) {
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-color: #c6c4c9;
+  border-right-color: #c6c4c9;
+}
+
+body main section#expertise div.fields div.row:nth-child(1) {
+  border-bottom-width: 1px;
+  border-bottom-color: #c6c4c9;
+  border-bottom-style: solid;
+}
+
+body main section#team {
+  height: 712px;
+  max-height: 712px;
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+  background: url("/assets/team_background_overlay.png"), url("/assets/team_background.png") no-repeat center center;
+}
+
+body main section#team div.team-main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: black;
+  text-align: center;
+}
+
+body main section#team div.team-main div.title h2 {
+  margin-top: 70px;
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.07em;
+}
+
+body main section#team div.team-main div.title p {
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.075em;
+  color: #f9f9f9;
+}
+
+body main section#team div.team-main div.title div.separator {
+  height: 2px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #655c80;
+  margin-bottom: 47px;
+}
+
+body main section#team div.team-main div.members div.row div.col-12 {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+body main section#team div.team-main div.members div.row div.col-12 div {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #78748c;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body main section#team div.team-main div.members div.row div.col-12 div h3 {
+  margin-top: 22px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+body main section#team div.team-main div.members div.row div.col-12 div h4 {
+  margin-top: 8px;
+  margin-bottom: 18px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #a6a4b4;
+}
+
+body main section#team div.team-main div.hiring {
+  letter-spacing: 0.05em;
+  color: #f3f3f3;
+}
+
+body main section#team div.team-main div.hiring p {
+  margin-top: 70px;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+body main section#team div.team-main div.hiring button {
+  border-color: #00e0d0;
+  margin-top: 16px;
+  margin-bottom: 69px;
+  padding: 6px 17px;
+  cursor: pointer;
+}
+
+body main section#team div.team-main div.hiring button a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Hammersmith One', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #00e0d0;
+  text-decoration: none;
+}
+
+body main section#team div.team-main div.hiring button:hover, body main section#team div.team-main div.hiring button:focus, body main section#team div.team-main div.hiring button:active {
+  background-color: #00e0d0 !important;
+}
+
+body main section#team div.team-main div.hiring button:hover a, body main section#team div.team-main div.hiring button:focus a, body main section#team div.team-main div.hiring button:active a {
+  color: white;
+}
+
+body main section#team div.team-main div.hiring button:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+}
+
+body main section#portfolio {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body main section#portfolio div.title {
+  margin-top: 70px;
+}
+
+body main section#portfolio div.title div.row div.col-lg-6:nth-child(1) {
+  float: left;
+}
+
+body main section#portfolio div.title div.row div.col-lg-6:nth-child(1) h2 {
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+  color: #413d4b;
+  text-transform: uppercase;
+}
+
+body main section#portfolio div.title div.row div.col-lg-6:nth-child(2) {
+  float: right;
+}
+
+body main section#portfolio div.title div.row div.col-lg-6:nth-child(2) a {
+  text-decoration: none;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #413d4b;
+}
+
+body main section#portfolio div.samples {
+  margin-top: 71px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body main section#portfolio div.samples div.row div.col-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body main section#portfolio div.more {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+body main section#portfolio div.more button {
+  border-color: #00e0d0;
+  padding: 6px 17px;
+  cursor: pointer;
+}
+
+body main section#portfolio div.more button a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Hammersmith One', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #00e0d0;
+  text-decoration: none;
+}
+
+body main section#portfolio div.more button:hover, body main section#portfolio div.more button:focus, body main section#portfolio div.more button:active {
+  background-color: #00e0d0 !important;
+}
+
+body main section#portfolio div.more button:hover a, body main section#portfolio div.more button:focus a, body main section#portfolio div.more button:active a {
+  color: white;
+}
+
+body main section#portfolio div.more button:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+}
+
+body main section#testimonials {
+  height: 570px;
+  max-height: 570px;
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+  background: url("/assets/testimonials_background_overlay.png"), url("/assets/testimonials_background.png") no-repeat center center;
+  background-position: top;
+  background-color: #110D37;
+}
+
+body main section#testimonials div.testimonial-main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: black;
+  text-align: center;
+}
+
+body main section#testimonials div.testimonial-main div.row {
+  height: 100%;
+}
+
+body main section#testimonials div.testimonial-main div.row div.col-12 div.testimonial p {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+body main section#testimonials div.testimonial-main div.row div.col-12 div.testimonial p:nth-child(1) {
+  margin-top: 70px;
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 100px;
+  letter-spacing: 0.03em;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+body main section#testimonials div.testimonial-main div.row div.col-12 div.testimonial p:nth-child(2) {
+  margin-top: 43px;
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+body main section#testimonials div.testimonial-main div.row div.col-12 div.testimonial p:nth-child(3) {
+  margin-top: 40px;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+body main section#testimonials div.testimonial-main div.row div.col-12 div.testimonial p:nth-child(4) {
+  margin-top: -16px;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: center;
+  color: #b5b3bc;
+}
+
+body main section#testimonials div.testimonial-main div.row div.col-12 div.avatar img {
+  margin-top: 41px;
+  margin-bottom: 68px;
+}
+
+body main section#contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body main section#contact div.container {
+  margin-top: 71px;
+  margin-bottom: 71px;
+}
+
+body main section#contact div.container div.row div.contact {
+  float: left;
+  padding-right: 101px;
+}
+
+body main section#contact div.container div.row div.contact h3 {
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #413d4b;
+  text-transform: uppercase;
+}
+
+body main section#contact div.container div.row div.contact form {
+  margin-top: 35px;
+}
+
+body main section#contact div.container div.row div.contact form div.form-group input[type="text"],
+body main section#contact div.container div.row div.contact form div.form-group input[type="email"],
+body main section#contact div.container div.row div.contact form div.form-group textarea {
+  padding: 18px 21px;
+  border-radius: 0;
+  border-color: #e5e5e5;
+  border-width: 1px;
+}
+
+body main section#contact div.container div.row div.contact form div.form-group input[type="text"]:placeholder, body main section#contact div.container div.row div.contact form div.form-group input[type="text"]:-ms-input-placeholder,
+body main section#contact div.container div.row div.contact form div.form-group input[type="email"]:placeholder,
+body main section#contact div.container div.row div.contact form div.form-group input[type="email"]:-ms-input-placeholder,
+body main section#contact div.container div.row div.contact form div.form-group textarea:placeholder,
+body main section#contact div.container div.row div.contact form div.form-group textarea:-ms-input-placeholder {
+  color: #413d4b;
+}
+
+body main section#contact div.container div.row div.contact form div.form-group input#email,
+body main section#contact div.container div.row div.contact form div.form-group input#subject,
+body main section#contact div.container div.row div.contact form div.form-group textarea {
+  margin-top: 21px;
+}
+
+body main section#contact div.container div.row div.contact form button {
+  margin-top: 21px;
+  border-color: #00e0d0;
+  padding: 6px 17px;
+  cursor: pointer;
+  color: #00e0d0 !important;
+  float: left;
+}
+
+body main section#contact div.container div.row div.contact form button a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Hammersmith One', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #00e0d0 !important;
+  text-decoration: none;
+}
+
+body main section#contact div.container div.row div.contact form button:hover, body main section#contact div.container div.row div.contact form button:focus, body main section#contact div.container div.row div.contact form button:active {
+  background-color: #00e0d0 !important;
+}
+
+body main section#contact div.container div.row div.contact form button:hover a, body main section#contact div.container div.row div.contact form button:focus a, body main section#contact div.container div.row div.contact form button:active a {
+  color: white;
+}
+
+body main section#contact div.container div.row div.contact form button:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+}
+
+body main section#contact div.container div.row div.clients {
+  float: right;
+}
+
+body main section#contact div.container div.row div.clients h3 {
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #413d4b;
+  text-transform: uppercase;
+}
+
+body main section#contact div.container div.row div.clients div.row {
+  margin-top: 47px;
+}
+
+body footer {
+  background-color: #ffffff;
+}
+
+body footer div.background-wrapper {
+  height: 450px;
+  max-height: 450px;
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+  background: url("/assets/footer_background_overlay.png"), url("/assets/footer_background.png") no-repeat center center;
+  background-position: top;
+  background-color: #cdbeff;
+}
+
+body footer div.background-wrapper div.footer-main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  text-align: center;
+}
+
+body footer div.background-wrapper div.footer-main div.container {
+  margin: 70px auto;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.left p {
+  margin-top: 27px;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0.025em;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.center h3 {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  line-height: 26px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.center ul {
+  margin-top: 42px;
+  list-style: none;
+  padding: 0;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.center ul li {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  line-height: 26px;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 55px;
+  text-align: left;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.center ul li:nth-child(1):before {
+  color: #ffffff;
+  margin-left: 0px;
+  /* same as padding-left set on li */
+  width: 15px;
+  /* same as padding-left set on li */
+  font-family: 'Font Awesome 5 Free';
+  font-size: 15px;
+  content: "\f3c5";
+  font-weight: 900;
+  /* <-- add this or 400 for other styles */
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  left: -15px;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.center ul li:nth-child(2) {
+  margin-top: 10px;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.center ul li:nth-child(2):before {
+  color: #ffffff;
+  margin-left: 0px;
+  /* same as padding-left set on li */
+  width: 15px;
+  /* same as padding-left set on li */
+  font-family: 'Font Awesome 5 Free';
+  font-size: 15px;
+  content: "\f095";
+  font-weight: 900;
+  /* <-- add this or 400 for other styles */
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  left: -15px;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right h3 {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  line-height: 26px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right form {
+  margin-top: 42px;
+  margin-bottom: 50px;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right form div.input-group input {
+  font-family: 'Roboto',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #cecbd7;
+  border-color: #9d97b0;
+  border-width: 1px;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 17px 16px;
+  height: 45px;
+  width: 211px;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right form div.input-group input:placeholder {
+  color: #9d97b0;
+  opacity: 1;
+  /* Firefox */
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right form div.input-group input:-ms-input-placeholder {
+  color: #9d97b0;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right form div.input-group div {
+  height: 45px;
+  width: 70px;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right form div.input-group div button {
+  height: 45px;
+  width: 70px;
+  margin-left: 10px;
+  color: #121114;
+  background-color: #9b92ac;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right div.row {
+  margin-bottom: 14px;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right div.row div.col-12 ul li {
+  width: 35px;
+  height: 35px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-radius: 50%;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right div.row div.col-12 ul li:not(:nth-child(1)) {
+  margin-right: 9px;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right div.row div.col-12 ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.widgets div.right div.row div.col-12 ul li a i {
+  margin-top: 8px;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.extra {
+  margin-top: 61px;
+  margin-bottom: 50px;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.extra div.footer-nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  line-height: 26px;
+  letter-spacing: 0.025em;
+}
+
+body footer div.background-wrapper div.footer-main div.container div.extra div.copy p {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.025em;
+  text-align: right;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  body header div#headerHero.navbarExpanded {
+    margin-top: 0;
+  }
+  body main section#about div.container div.row div.col-md-5 {
+    padding: 70px 0px;
+    padding-right: 20px;
+  }
+  body main section#expertise {
+    padding: 70px 30px !important;
+  }
+  body main section#expertise div.fields div.row div.col-12 {
+    padding: 10px 21px 10px 21px;
+  }
+  body main section#team {
+    background-position: top;
+    background-color: #110D37;
+    max-height: 1100px;
+    height: 1100px;
+  }
+  body main section#team div.team-main div.members div.row div.col-md-6:nth-child(3), body main section#team div.team-main div.members div.row div.col-md-6:nth-child(4) {
+    margin-top: 40px;
+  }
+  body main section#testimonials {
+    background-position: top;
+    background-color: #110D37;
+    max-height: 600px;
+    height: 600px;
+  }
+  body main section#testimonials div.testimonial-main div.row div.col-12 div.testimonial p {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  body main section#contact div.container div.row div.contact {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  body main section#contact div.container div.row div.contact h3 {
+    text-align: center;
+  }
+  body main section#contact div.container div.row div.clients {
+    margin-top: 71px;
+  }
+  body main section#contact div.container div.row div.clients h3 {
+    text-align: center;
+  }
+  body footer div.background-wrapper {
+    height: 850px;
+    max-height: 850px;
+  }
+  body footer div.background-wrapper div.footer-main div.widgets div.center, body footer div.background-wrapper div.footer-main div.widgets div.right {
+    margin-top: 30px;
+  }
+  body footer div.background-wrapper div.footer-main div.widgets div.center ul, body footer div.background-wrapper div.footer-main div.widgets div.center form, body footer div.background-wrapper div.footer-main div.widgets div.right ul, body footer div.background-wrapper div.footer-main div.widgets div.right form {
+    margin-top: 20px !important;
+  }
+  body footer div.background-wrapper div.footer-main div.widgets div.center form, body footer div.background-wrapper div.footer-main div.widgets div.right form {
+    margin-bottom: 0;
+  }
+  body footer div.background-wrapper div.footer-main div.extra {
+    margin-top: 20px;
+  }
+  body footer div.background-wrapper div.footer-main div.extra div.footer-nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body footer div.background-wrapper div.footer-main div.extra div.copy {
+    margin-top: 20px;
+  }
+  body footer div.background-wrapper div.footer-main div.extra div.copy p {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 425px) {
+  body main section#about div.container div.row div.col-md-5 {
+    padding: 70px 0 30px 0;
+  }
+  body main section#about div.container div.row div.col-md-7 {
+    padding-top: 30px;
+  }
+  body main section#about div.container div.row div.col-md-7 h2 {
+    text-align: center;
+  }
+  body main section#about div.container div.row div.col-md-7 p {
+    padding: 0 20px;
+    text-align: center;
+  }
+  body main section#about div.container div.row div.col-md-7 div {
+    float: none !important;
+  }
+  body main section#expertise {
+    padding: 70px 30px !important;
+  }
+  body main section#expertise div.fields div.row div.col-12 {
+    padding: 10px 21px 10px 21px;
+  }
+  body main section#expertise div.fields div.row div.col-12:nth-child(2) {
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
+  body main section#expertise div.fields div.row:nth-child(1) {
+    border-bottom-width: 0px;
+  }
+  body main section#team {
+    background-position: top;
+    background-color: #110D37;
+    max-height: 1800px;
+    height: 1800px;
+  }
+  body main section#team div.team-main div.members div.row div.col-md-6:not(:nth-child(1)) {
+    margin-top: 40px;
+  }
+  body main section#testimonials {
+    background-position: top;
+    background-color: #110D37;
+    max-height: 700px;
+    height: 700px;
+  }
+  body main section#testimonials div.testimonial-main div.row div.col-12 div.testimonial p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  body footer div.background-wrapper {
+    height: 950px;
+    max-height: 950px;
+  }
+}
+
+@media (max-width: 375px) {
+  body main section#about div.container div.row div.col-md-5 {
+    padding: 70px 0 30px 0;
+  }
+  body main section#about div.container div.row div.col-md-7 {
+    padding-top: 30px;
+  }
+  body main section#about div.container div.row div.col-md-7 h2 {
+    text-align: center;
+  }
+  body main section#about div.container div.row div.col-md-7 p {
+    padding: 0 20px;
+    text-align: center;
+  }
+  body main section#about div.container div.row div.col-md-7 div {
+    float: none !important;
+  }
+  body main section#testimonials {
+    max-height: 800px;
+    height: 800px;
+  }
+  body main section#testimonials div.testimonial-main div.row div.col-12 div.testimonial p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  body footer div.background-wrapper {
+    height: 975px;
+    max-height: 975px;
+  }
+}
+
+@media (max-width: 320px) {
+  body main section#about div.container div.row div.col-md-5 {
+    padding: 70px 0 30px 0;
+  }
+  body main section#about div.container div.row div.col-md-7 {
+    padding-top: 30px;
+  }
+  body main section#about div.container div.row div.col-md-7 h2 {
+    text-align: center;
+  }
+  body main section#about div.container div.row div.col-md-7 p {
+    padding: 0 20px;
+    text-align: center;
+  }
+  body main section#about div.container div.row div.col-md-7 div {
+    float: none !important;
+  }
+  body main section#testimonials {
+    max-height: 800px;
+    height: 800px;
+  }
+  body main section#testimonials div.testimonial-main div.row div.col-12 div.testimonial p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  body footer div.background-wrapper {
+    height: 1000px;
+    max-height: 1000px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
